@@ -5,6 +5,7 @@ import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -28,6 +29,9 @@ public class LoginActivity extends AppCompatActivity {
 
             Intent intent = new Intent(this, ContainnerActivity.class);
             startActivity(intent);
+        }else{
+
+            Toast.makeText(this, "Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show();
         }
     }
 }
