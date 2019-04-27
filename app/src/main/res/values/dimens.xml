@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="login_edittext">20sp</dimen>
+    <dimen name="text_createhere">16sp</dimen>
+    <dimen name="padding_linear_login">32dp</dimen>
+    <dimen name="margin_bottom_editText">10dp</dimen>
+    <dimen name="margin_top_button_createAccount">40dp</dimen>
+    <dimen name="cornerRadius_card">4dp</dimen>
+    <dimen name="buttonbar_height">70dp</dimen>
+    <dimen name="textUsername">30dp</dimen>
+    <dimen name="circle_Image">160dp</dimen>
+    <dimen name="elevationCircleImage">10dp</dimen>
+    <dimen name="margin_top_circleImage">30dp</dimen>
+    <dimen name="margin_bottom_newpost_button">10dp</dimen>
+    <dimen name="text_donhaveaccount">16sp</dimen>
+</resources>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Login</string>
+
+    <string name="TextInputEditText_username">Nombre de usuario</string>
+    <string name="TextInputEditText_password">Contraseña</string>
+    <string name="TextButton_login">Login</string>
+    <string name="textInputEditText_email">Correo</string>
+    <string name="textInputEditText_name">Nombre</string>
+    <string name="textInputEditText_username">Usuario</string>
+    <string name="textInputEditText_confirmpassword">Confirma contraseña</string>
+    <string name="textButton_createaccount">ÚNETE</string>
+    <string name="title_toolbar_home">Home</string>
+    <string name="textUsername">Uriel Ramirez</string>
+    <string name="title_tab_search">Buscar</string>
+    <string name="title_tab_home">Home</string>
+    <string name="title_tab_profile">Yo</string>
+    <string name="login_error">Ocurrio un error</string>
 </resources>
