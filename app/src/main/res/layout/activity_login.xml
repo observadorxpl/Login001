@@ -68,6 +68,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/TextButton_login"
                     android:theme="@style/RaisedButtonNormal"
+                    android:onClick="goLoginAccount"
                     />
 
                 <RelativeLayout
