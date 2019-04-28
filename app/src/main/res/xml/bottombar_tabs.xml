@@ -18,4 +18,5 @@
         barColorWhenSelected="@color/colorPrimary"
         icon = "@drawable/ic_report"
         />
+
 </tabs>
