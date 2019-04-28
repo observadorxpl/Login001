@@ -25,11 +25,21 @@ public class LoginActivity extends AppCompatActivity {
         TextInputEditText username = (TextInputEditText) findViewById(R.id.login_username);
         TextInputEditText password = (TextInputEditText) findViewById(R.id.login_password);
 
-        if (username.getText().toString().equals("usuario01") && password.getText().toString().equals("123456")) {
+        if (username.getText().toString().equals("Administrador") && password.getText().toString().equals("123")) {
 
             Intent intent = new Intent(this, ContainnerActivity.class);
             startActivity(intent);
-        }else{
+        }else if (username.getText().toString().equals("Gerente") && password.getText().toString().equals("1234")) {
+
+            Intent intent = new Intent(this, ContainnerActivity.class);
+            startActivity(intent);
+        }else  if (username.getText().toString().equals("Personal") && password.getText().toString().equals("12345")) {
+
+            Intent intent = new Intent(this, ContainnerActivity.class);
+            startActivity(intent);
+        }
+
+        else{
 
             Toast.makeText(this, "Usuario o contraseña incorrecta", Toast.LENGTH_SHORT).show();
         }
