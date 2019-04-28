@@ -33,7 +33,7 @@ public class ContainnerActivity extends AppCompatActivity {
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment)
                                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).addToBackStack(null).commit();
                         break;
-                    case  R.id.profile:
+                    case  R.id.reports:
                         SearchFragment profileFragment = new SearchFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment)
                                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN).addToBackStack(null).commit();
