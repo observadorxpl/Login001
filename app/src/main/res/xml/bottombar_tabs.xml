@@ -13,7 +13,7 @@
         icon = "@drawable/ic_search"
         />
     <tab
-        id="@+id/profile"
+        id="@+id/reports"
         title = "@string/title_tab_report"
         barColorWhenSelected="@color/colorPrimary"
         icon = "@drawable/ic_report"

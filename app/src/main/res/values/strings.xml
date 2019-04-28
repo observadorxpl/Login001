@@ -16,4 +16,7 @@
     <string name="title_tab_profile">Yo</string>
     <string name="login_error">Ocurrio un error</string>
     <string name="title_tab_report">Reportes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
